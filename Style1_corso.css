@@ -4,6 +4,7 @@
   padding: 10px 0;
   /*text-align: center;*/
   background-color: rgb(247, 212, 168);
+  border-radius: 16px;
 }
 .navbar {
   margin-right: 20px;
@@ -26,6 +27,10 @@ li {
   transition: color 0.3s;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 #ancora {
   transition: 1s;
 }
@@ -36,15 +41,16 @@ li {
   align-items: center;
 }
 
-.submit {
+/*BOTTONE*/
+.button {
   width: fit-content;
   padding: 5px;
-  background-color: aquamarine;
+  border-radius: 16px;
   border: none;
   transition: 0.5s;
 }
 
-.submit:hover {
+.button:hover {
   /*transform: scale(1.3);*/
   cursor: pointer;
 }
@@ -79,4 +85,6 @@ main {
 
 .diritti {
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
