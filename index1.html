@@ -6,24 +6,21 @@
     <link href="Style1_corso.css" rel="stylesheet" />
     <title>Document</title>
   </head>
-  <header>
-    <h1><em>Leggi e scrivi le tue novel</em></h1>
-
-    <img
-      src="https://img.freepik.com/free-vector/covered-opened-book-with-pages-fluttering-hand-drawn-sketch-vector-illustration_460848-14658.jpg"
-      width="100"
-      height="100
-      "
-      alt="immagine instagram"
-    />
-
-    <nav>
-      <a href="#">HOME</a>
-      <a href="#">LIBRERIA</a>
-      <a href="#">TENDENZA</a>
-      <a href="#ancora">CHI SIAMO</a>
-      <a href="#">LOGIN</a>
-      <a href="#">LOGIN</a>
+  <h1><em>Leggi e scrivi le tue novel</em></h1>
+  <header class="header">
+    <nav class="navbar">
+      <img
+        class="img1"
+        src="https://img.freepik.com/free-vector/covered-opened-book-with-pages-fluttering-hand-drawn-sketch-vector-illustration_460848-14658.jpg"
+        width="100"
+        height="100"
+        alt="immagine instagram"
+      />
+      <li><a href="#" class="link">HOME</a></li>
+      <li><a href="#" class="link">LIBRERIA</a></li>
+      <li><a href="#" class="link">TENDENZA</a></li>
+      <li><a href="#ancora" class="link">CHI SIAMO</a></li>
+      <li><a href="#" class="link">LOGIN</a></li>
     </nav>
     <br />
     <br />
@@ -31,42 +28,42 @@
 
   <body>
     <main>
-      <form>
-        <button>INVIA</button>
-        <fieldset>
-          <h2>Accedi</h2>
-
+      <form class="module">
+        <!-- <fieldset> -->
+        <h2>Accedi</h2>
+        <div>
           <label
-            >Email : <input type="text" id="Email" placeholder="Email" /></label
-          ><br />
+            >Email : <input type="text" id="Email" placeholder="Email"
+          /></label>
           <label
             >Password : <input type="Password" placeholder="Password"
           /></label>
-        </fieldset>
+          <button class="submit">invia</button>
+        </div>
+        <!-- </fieldset> -->
 
         <p>Non sei iscritto? <a href="">Iscriviti</a></p>
       </form>
     </main>
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-    <footer id="ancora">
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/640px-Instagram_logo_2022.svg.png"
-        width="20"
-        height="20"
-        alt="immagine instagram"
-      />
-      <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-      <img
-        src="https://www.facebook.com/images/fb_icon_325x325.png"
-        width="20"
-        height="20"
-        alt="immagine facebook"
-      />
-      <a href="">facebook</a>
-      <hr />
-      Tutti i diritti rivervati
+    <footer id="ancora" class="footer">
+      <div class="contact">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/640px-Instagram_logo_2022.svg.png"
+          width="20"
+          height="20"
+          alt="immagine instagram"
+        />
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        <img
+          src="https://www.facebook.com/images/fb_icon_325x325.png"
+          width="20"
+          height="20"
+          alt="immagine facebook"
+        />
+        <a href="">facebook</a>
+      </div>
+      <p class="diritti">Tutti i diritti rivervati</p>
     </footer>
-    <br /><br /><br /><br /><br />
   </body>
 </html>
