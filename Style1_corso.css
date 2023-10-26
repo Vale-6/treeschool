@@ -61,7 +61,7 @@ a:link {
 }
 
 input {
-  border-radius: 16px;
+  border-radius: 16px; /*bordi arrotondati*/
   padding: 8px;
   border: 1px solid rgb(224, 190, 96);
   outline: none;
